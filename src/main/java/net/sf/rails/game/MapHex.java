@@ -340,6 +340,7 @@ public class MapHex extends RailsModel implements RailsOwner, Configurable {
 
     public void finishConfiguration(RailsRoot root) {
         currentTile.set(root.getTileManager().getTile(preprintedTileId));
+        log.error("Tile {}", currentTile);
         currentTileRotation.set(preprintedTileRotation);
 
         reservedForCompany = getRoot().getCompanyManager().getPublicCompany(

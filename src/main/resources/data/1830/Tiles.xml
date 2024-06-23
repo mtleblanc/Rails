@@ -21,6 +21,11 @@
 	<Tile colour="fixed" id="-7" name="MF 7">
 		<Track from="side2" gauge="normal" to="side1"/>
 	</Tile>
+	<Tile colour="fixed" id="50007" name="MF 7">
+		<Track from="side2" gauge="normal" to="side1"/>
+		<Track from="side2" gauge="normal" to="side0"/>
+		<Track from="side0" gauge="normal" to="side1"/>
+	</Tile>
 	<Tile colour="white" id="-10" name="1 city">
 		<Station id="city1" position="302" slots="1" type="City"/>
 	</Tile>
@@ -58,6 +63,12 @@
 	</Tile>
 	<Tile colour="fixed" id="-103" name="MF 103">
 		<Station id="city1" position="0" slots="1" type="City" value="40"/>
+		<Track from="city1" gauge="normal" to="side2"/>
+		<Track from="city1" gauge="normal" to="side3"/>
+	</Tile>
+	<Tile colour="fixed" id="50103" name="MF 103">
+		<Station id="city1" position="0" slots="2" type="City" value="40"/>
+		<Track from="city1" gauge="normal" to="side4"/>
 		<Track from="city1" gauge="normal" to="side2"/>
 		<Track from="city1" gauge="normal" to="side3"/>
 	</Tile>

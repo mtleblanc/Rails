@@ -13,8 +13,8 @@
 	</IfOption>
 	<Hex name="A9" tile="-901" orientation="0" value="30,50" city="Canadian West"/>
 	<Hex name="A11" tile="-902" orientation="1" value="30,50" city="Canadian West"/>
-	<Hex name="A17" tile="-7" orientation="1" city="Montreal"/>
-	<Hex name="A19" tile="-103" orientation="0"/>
+	<Hex name="A17" tile="50007" orientation="1" city="Montreal"/>
+	<Hex name="A19" tile="50103" orientation="0"/>
 	<Hex name="B10" tile="-10"/>
 	<Hex name="B12" tile="0"/>
 	<Hex name="B14" tile="0"/>

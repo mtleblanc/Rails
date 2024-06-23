@@ -15,6 +15,7 @@
 	<Tile id="-3"/>
 	<Tile id="-5"/>
 	<Tile id="-7"/>
+	<Tile id="50007"/>
 	<Tile id="-10"><!-- 1 city -->
 		<Upgrade id="57"/>
 	</Tile>
@@ -36,6 +37,7 @@
 	<Tile id="-101"/><!-- Altoona -->
 	<Tile id="-102"/><!-- Rochester -->
 	<Tile id="-103"/><!-- Montreal -->
+	<Tile id="50103"/><!-- Montreal -->
 	<Tile id="-104"/><!-- Norfolk -->
 	<Tile id="-105"/><!-- Cleveland -->
 	<Tile id="-901"/>
