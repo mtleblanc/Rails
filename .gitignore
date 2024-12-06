@@ -4,6 +4,7 @@
 
 # eclipse specific files
 /.settings/
+/.vscode/
 
 .project
 .classpath

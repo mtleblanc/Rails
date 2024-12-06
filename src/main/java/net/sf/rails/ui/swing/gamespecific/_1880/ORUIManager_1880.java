@@ -4,12 +4,16 @@ import rails.game.action.PossibleActions;
 import rails.game.specific._1880.CloseInvestor_1880;
 import rails.game.specific._1880.ExchangeForCash;
 import rails.game.specific._1880.ForcedRocketExchange;
+import net.sf.rails.game.GameDef;
+import net.sf.rails.game.PublicCompany;
 import net.sf.rails.ui.swing.ORUIManager;
 
 public class ORUIManager_1880 extends ORUIManager {
 
-    protected void checkForGameSpecificActions() {
-        PossibleActions possibleActions = this.getPossibleActions();
+    @Override
+    protected void checkForGameSpecificActions(PublicCompany orComp,
+                                               GameDef.OrStep orStep,
+                                               PossibleActions possibleActions) {
         
         if (possibleActions.contains(CloseInvestor_1880.class)) {
             ((GameUIManager_1880) gameUIManager).closeInvestor(possibleActions.getType(
